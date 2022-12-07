@@ -1,14 +1,12 @@
 
 ## This is a collection of possible JavaScript interview questions with provided both short answers and detailed explanations. 
 ---
-#interviewQuestions
-#objects
 ### Q: Which are the most common ways to create an object in JS?
 
-### *A: There are many ways to create objects in JS. The most common of them are to use:*
+#### *Short answer: There are many ways to create objects in JS. The most common of them are to use:*
 **Object literal syntax**, **Object.create() method**, **object constructor using "new" keyword**, **JS class syntax* 
 
-### Details:
+#### Detailed explanation:
 
 - Object literal syntax - a shorthand for creating objects with properties and methods
 ```javascript
@@ -53,8 +51,14 @@ console.log(person.name) // John Doe
 console.log(person..greering()) // John Doe says hello!
 ```
 
----
+<details>
+<summary>
 
+### Markdown *in* `summary`
 
+</summary>
 
+Hi.
+
+</details>
 
